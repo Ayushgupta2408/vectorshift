@@ -12,3 +12,19 @@
 
 #### Node → Task (API call, email, AI model, database)
 #### Edge → Dependency between tasks
+
+**Install Dependencies:**
+   #### Backend :
+   ```sh
+   cd backend
+   python -m venv venv
+   .\venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+   python -m uvicorn main:app --reload 
+   ```
+   #### Frontend :
+   ```sh
+   cd frontend
+   npm install
+   npm run
+   ```
